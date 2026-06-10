@@ -53,7 +53,7 @@ pip install -r requirements.txt
 ### 4. Menjalankan Backend (FastAPI)
 Jalankan server FastAPI secara lokal:
 ```bash
-uvicorn main:app --reload
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
 API akan berjalan di `http://localhost:8000`. Anda dapat mengakses dokumentasi interaktif Swagger API di `http://localhost:8000/docs`.
 
