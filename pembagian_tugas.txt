@@ -1,0 +1,21 @@
+Kelompok 8 - Klasifikasi Kondisi Cuaca Menggunakan CNN
+
+Anggota:
+- Muhammad Nazlul Ramadhyan (2308107010036)
+- Naufal Farrel Syafilan (2308107010058)
+
+Rincian Kontribusi:
+
+Muhammad Nazlul Ramadhyan
+- Eksperimen Model CNN: Melakukan eksperimen awal terhadap 3 variasi model CNN (baseline, model dengan Dropout, dan model dengan augmentasi data).
+- Evaluasi Model: Melakukan analisis hasil pelatihan dan memilih Model 2 (Dropout) sebagai model final dengan performa terbaik, serta membuat visualisasi grafik loss/accuracy dan confusion matrix.
+- Manajemen Data: Melakukan splitting dataset cuaca menjadi data training, validation, dan testing.
+- Pengembangan Frontend: Membantu merancang komponen visual pada layout antarmuka web Streamlit.
+- Dokumentasi & Slide: Menyusun konten file README untuk repositori GitHub dan menyiapkan materi slide PowerPoint untuk keperluan presentasi offline.
+
+Naufal Farrel Syafilan
+- Eksperimen Model CNN: Membantu proses tuning parameter pada arsitektur model serta melakukan pengujian performa Model 2 sebelum tahap deployment.
+- Pengembangan Frontend: Membantu membangun dan mengonstruksi kode utama antarmuka web menggunakan Streamlit (app.py) untuk fitur unggah gambar dan menampilkan hasil beserta confidence score.
+- Integrasi Sistem: Menghubungkan antarmuka Streamlit dengan server backend FastAPI menggunakan request API.
+- Pengembangan Backend: Membangun server API menggunakan FastAPI (main.py) untuk memuat model CNN dan memproses endpoint prediksi gambar.
+- Deployment Aplikasi: Mengonfigurasi file render.yaml untuk kebutuhan deployment ke platform cloud (Render) serta menangani kendala minor pada layout aplikasi.
