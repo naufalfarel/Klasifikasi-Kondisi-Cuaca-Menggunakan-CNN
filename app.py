@@ -57,19 +57,14 @@ with st.sidebar:
     st.header("ℹ️ Tentang Aplikasi")
     st.markdown(
         """
-        **Model**: CNN (Model 1 - CNN Dasar)  
-        **Dataset**: Multi-class Weather Dataset  
-        **Kelas**:
-        - ☁️ Cloudy (Berawan)
-        - 🌧️ Rain (Hujan)
-        - ☀️ Shine (Cerah)
+        Klasifikasi kondisi cuaca dari gambar menggunakan CNN.
 
-        **Ukuran Input**: 150 × 150 piksel  
-        **Accuracy**: ~91.11%  
-        **F1-Score**: ~90.99%
+        **Kelas yang didukung:**
+        - ☁️ Berawan
+        - 🌧️ Hujan
+        - ☀️ Cerah
 
         ---
-        *Tugas UAS Machine Learning*  
         *Kelompok 8 – Informatika USK*
         """
     )
