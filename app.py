@@ -85,7 +85,7 @@ if uploaded_file is not None:
 
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
-        st.image(image, caption=f"📷 {uploaded_file.name}", width="stretch")
+        st.image(image, caption=f"📷 {uploaded_file.name}", use_container_width=True)
 
     st.markdown("---")
 
