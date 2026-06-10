@@ -1,5 +1,5 @@
 # ─── Frontend ────────────────────────────────
-streamlit==1.35.0
+streamlit==1.39.0
 
 # ─── HTTP Client (Streamlit → FastAPI) ───────
 requests==2.32.2
