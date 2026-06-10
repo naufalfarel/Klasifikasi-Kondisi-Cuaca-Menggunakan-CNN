@@ -73,7 +73,7 @@ Proyek ini telah dideploy secara online di platform **Render**.
 > Karena menggunakan layanan Render Free Tier, server backend akan memasuki mode *sleep* jika tidak mendeteksi aktivitas. 
 > Untuk membukanya pertama kali, **ikuti alur berikut**:
 >
-> 1. Buka URL Backend (FastAPI) terlebih dahulu: **[https://fastapi-weather-vtja.onrender.com/](https://fastapi-weather-vtja-onrender-com.onrender.com)** (Tunggu beberapa saat sampai web memuat pesan aktif `{"message": "..."}`).
+> 1. Buka URL Backend (FastAPI) terlebih dahulu: **[https://fastapi-weather-vtja.onrender.com/](https://fastapi-weather-vtja.onrender.com/)** (Tunggu beberapa saat sampai web memuat pesan aktif `{"message": "..."}`).
 > 2. Buka URL Frontend (Streamlit): **[https://streamlit-weather.onrender.com/](https://streamlit-weather.onrender.com/)** untuk mencoba klasifikasi cuaca.
 
 ### Konfigurasi Deployment:
