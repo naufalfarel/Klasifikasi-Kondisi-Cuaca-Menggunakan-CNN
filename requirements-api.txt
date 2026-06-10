@@ -1,0 +1,15 @@
+# ─── Web Framework ───────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+# ─── Image Processing ────────────────────────
+Pillow==10.4.0
+
+# ─── Deep Learning ───────────────────────────
+tensorflow-cpu==2.20.0
+
+# ─── Numerik ─────────────────────────────────
+numpy==1.26.4
+
+# ─── Upload handling di FastAPI ──────────────
+python-multipart==0.0.9
