@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Dataset & arsip
+*.zip
+
+# Jangan abaikan file .h5 — ditangani Git LFS
+# *.h5  ← jangan uncomment ini

@@ -1,0 +1,22 @@
+# ─── Web Framework ───────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+# ─── Frontend ────────────────────────────────
+streamlit==1.35.0
+
+# ─── HTTP Client (Streamlit → FastAPI) ───────
+requests==2.32.2
+
+# ─── Image Processing ────────────────────────
+Pillow==10.3.0
+
+# ─── Deep Learning ───────────────────────────
+# Gunakan tensorflow-cpu agar lebih ringan di Render free tier
+tensorflow-cpu==2.15.1
+
+# ─── Numerik ─────────────────────────────────
+numpy==1.26.4
+
+# ─── Upload handling di FastAPI ──────────────
+python-multipart==0.0.9

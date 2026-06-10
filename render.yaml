@@ -1,0 +1,35 @@
+# render.yaml
+# File ini mendefinisikan dua Web Service di Render:
+#   1. fastapi-weather  → backend (FastAPI + model CNN)
+#   2. streamlit-weather → frontend (Streamlit)
+#
+# Cara pakai:
+#   Push repo ini ke GitHub, lalu di Render pilih
+#   "New > Blueprint" dan arahkan ke repo ini.
+
+services:
+  # ── Service 1: FastAPI Backend ──────────────────────
+  - type: web
+    name: fastapi-weather
+    runtime: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "uvicorn main:app --host 0.0.0.0 --port 8000"
+    plan: free
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.0"
+
+  # ── Service 2: Streamlit Frontend ───────────────────
+  - type: web
+    name: streamlit-weather
+    runtime: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "streamlit run app.py --server.port 8501 --server.address 0.0.0.0 --server.headless true"
+    plan: free
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.0"
+      - key: FASTAPI_URL
+        # GANTI nilai ini dengan URL FastAPI kamu setelah deploy
+        # Contoh: https://fastapi-weather.onrender.com
+        value: "https://fastapi-weather.onrender.com"
