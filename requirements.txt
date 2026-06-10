@@ -9,11 +9,11 @@ streamlit==1.35.0
 requests==2.32.2
 
 # ─── Image Processing ────────────────────────
-Pillow==10.3.0
+Pillow==10.4.0
 
 # ─── Deep Learning ───────────────────────────
 # Gunakan tensorflow-cpu agar lebih ringan di Render free tier
-tensorflow-cpu==2.15.1
+tensorflow-cpu==2.20.0
 
 # ─── Numerik ─────────────────────────────────
 numpy==1.26.4
